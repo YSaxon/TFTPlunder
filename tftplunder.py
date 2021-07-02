@@ -24,7 +24,7 @@ def parse_form(form):
             data[e.get('name')] = e.get('value')
     return data
 
-class FileDownloader:
+class TFTPlunder:
     def __init__(self,host,tftp_port=69,web_port=8086,user="admin",passwd="1234",proxies=None):
         self.host=host
         self.tftp_port=tftp_port
