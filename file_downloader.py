@@ -110,28 +110,3 @@ class FileDownloader:
             pass
         return False
 
-
-#for lists of files to try reading see eg https://www.soffensive.com/posts/web-app-sec/2018-06-19-exploiting-blind-file-reads-path-traversal-vulnerabilities-on-microsoft-windows-operating-systems/
-#and https://github.com/soffensive/windowsblindread/blob/master/windows-files.txt used below
-
-
-
-# if __name__ == "__main__":
-#     from hashlib import sha1
-#     for f in files:
-#         print("========")
-#         print(f)
-#         try:
-#             bytes_f=get_file(f)
-#             if bytes_f:
-#                     hash=sha1(bytes_f).hexdigest()
-#                     print(hash)
-#                     #print(bytes_f)
-#                     dirs='files/'+'/'.join(f.split('/')[1:-1])
-#                     file_path='files/'+'/'.join(f.split('/')[1:])
-#                     os.makedirs(dirs,exist_ok=True)
-#                     with open(file_path,"wb") as f:
-#                         f.write(bytes_f)
-#         except Exception as e:
-#             print(e) 
-#             pass

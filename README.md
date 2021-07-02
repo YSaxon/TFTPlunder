@@ -1,4 +1,4 @@
-IninTftpArbitraryReadWrite
+Inin TFTP Server Arbitrary Directory Blind Read Write exploitation helper
 
 This simple repo is for automating the process of exploiting a blind arbitrary file read/write that can be present in the inin (now genesys) tftp web server.
 
@@ -17,3 +17,6 @@ $ python3
 etcetera
 
 hint: see https://github.com/jtpereyda/regpol for help decoding ntuser.pol
+
+see also https://www.soffensive.com/posts/web-app-sec/2018-06-19-exploiting-blind-file-reads-path-traversal-vulnerabilities-on-microsoft-windows-operating-systems/
+and https://github.com/soffensive/windowsblindread/blob/master/windows-files.txt
