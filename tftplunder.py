@@ -41,6 +41,7 @@ class TFTPlunder:
         self.greatest_existing_prop_0_extensions_key=int(sorted([k.split('_')[3] for k,v in self.forms_data.items() if k.startswith("Prop_0_val")])[-1])
         
         self.original_folder_to_put_back_at_the_end=self.forms_data['Prop_4_val_0']
+        print(f"remember to changedir back to {self.original_folder_to_put_back_at_the_end} when you are done if you don't want to mess up the whole phone system")
         
         self.dir_dict=dict()
         self.last_dir="CHANGEME"
