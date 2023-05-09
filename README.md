@@ -18,7 +18,7 @@ All known versions to date are vulnerable.
 
 ## Mitigation
 
-The best mitigation for now is simply to update the admin credentials to the TFTP interface.
+The best mitigation for now is simply to update the Admin credentials to the TFTP configuration server.
 
 ## Using this exploit
 
