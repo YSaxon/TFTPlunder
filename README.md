@@ -38,5 +38,4 @@ etcetera
 
 hint: see https://github.com/jtpereyda/regpol for help decoding ntuser.pol
 
-see also https://www.soffensive.com/posts/web-app-sec/2018-06-19-exploiting-blind-file-reads-path-traversal-vulnerabilities-on-microsoft-windows-operating-systems/
-and https://github.com/soffensive/windowsblindread/blob/master/windows-files.txt
+and see lists such as https://github.com/soffensive/windowsblindread/blob/master/windows-files.txt for examples of other files to try.
