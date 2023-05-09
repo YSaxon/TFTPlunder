@@ -24,7 +24,7 @@ The best mitigation for now is simply to update the Admin credentials to the TFT
 
 ## Using this exploit
 
-I'd recommend using it with either a Jupyer notebook or the Python REPL loop.
+I'd recommend using this with either a Jupyer notebook or the Python REPL loop, or for more advanced use cases, writing your own script and importing this file.
 Just import the main python file, instantiate the class, and call get_file and put_file as you please.
 
 ```
