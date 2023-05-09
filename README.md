@@ -1,4 +1,6 @@
-TFTPlunder: Genesys TFTP Server Arbitrary Directory Blind Read Write exploitation helper (CVE-2023-29930)
+# TFTPlunder: an exploit for CVE-2023-29930
+
+This is an exploit script for a blind file read / write vulnerability in the Genesys (formerly InIn) TFTP provisioning server.
 
 ## Vulnerability info
 
